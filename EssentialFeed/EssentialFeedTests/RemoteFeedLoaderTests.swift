@@ -96,9 +96,6 @@ class RemoteFeedLoaderTests: XCTestCase {
         })
     }
 
-
-
-
     // MARK: - Helpers
 
     private func makeSUT(url: URL = URL(string: "https://example.com")!, file: StaticString = #file, line: UInt = #line) -> (sut: RemoteFeedLoader, client: HTTPClientSpy) {
