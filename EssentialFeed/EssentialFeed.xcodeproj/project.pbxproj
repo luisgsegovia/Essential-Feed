@@ -155,6 +155,7 @@
 		6C400CAC2D4349DF0094B510 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Helpers/UIButton+TestHelpers.swift",
 				"Helpers/UIImage+TestHelpers.swift",
 				"Helpers/UIRefreshControl+TestHelpers.swift",
 			);
