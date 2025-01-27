@@ -8,9 +8,6 @@
 
 import EssentialFeed
 
-struct FeedLoadingViewModel {
-    let isLoading: Bool
-}
 
 protocol FeedLoadingView {
     func display(_ viewModel: FeedLoadingViewModel)
@@ -20,9 +17,6 @@ protocol FeedView {
     func display(_ viewModel: FeedViewModel)
 }
 
-struct FeedViewModel {
-    let feed: [FeedImage]
-}
 final class FeedPresenter {
 
     private let feedView: FeedView
