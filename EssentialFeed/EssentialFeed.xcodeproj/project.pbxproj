@@ -52,8 +52,8 @@
 		6C67DA672D279D12000B0C72 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		6C67DA682D279D12000B0C72 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6C67DA6C2D279F51000B0C72 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBC62B2C7C2C2200AF5622 /* XCTestCase+MemoryLeakTracking.swift */; };
-		6C817C8F2D51B36D00A15E02 /* FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C817C772D51B36D00A15E02 /* FeedImageDataLoader.swift */; };
 		6C817CBA2D51B63B00A15E02 /* RemoteFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C817CB92D51B63400A15E02 /* RemoteFeedImageDataLoaderTests.swift */; };
+		6C817CBB2D51B74200A15E02 /* FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C817C772D51B36D00A15E02 /* FeedImageDataLoader.swift */; };
 		6CB1362E2C72FD4E0082CCC3 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1362D2C72FD4A0082CCC3 /* RemoteFeedLoader.swift */; };
 		6CC2F4EC2C7D126800474240 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBC62B2C7C2C2200AF5622 /* XCTestCase+MemoryLeakTracking.swift */; };
 		6CCBC6212C782FF300AF5622 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBC6202C782FEF00AF5622 /* HTTPClient.swift */; };
@@ -709,6 +709,7 @@
 				6C5663C72C8A3E4500E9961D /* ManagedCache.swift in Sources */,
 				6C5663BD2C8A2E1700E9961D /* CoreDataFeedStore.swift in Sources */,
 				6C3016572D505B46008738CB /* FeedErrorViewModel.swift in Sources */,
+				6C817CBB2D51B74200A15E02 /* FeedImageDataLoader.swift in Sources */,
 				6C3016532D505A55008738CB /* FeedLoadingViewModel.swift in Sources */,
 				6C30165B2D515D70008738CB /* FeedImagePresenter.swift in Sources */,
 				6C5663C92C8A3E5700E9961D /* ManagedFeedImage.swift in Sources */,
@@ -763,7 +764,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C817C8F2D51B36D00A15E02 /* FeedImageDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
