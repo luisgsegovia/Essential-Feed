@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6C623DD62D5591F8008ECE60 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */; };
+		6C623DD72D5591F8008ECE60 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6C817D002D51DA3100A15E02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -16,7 +21,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C623DD82D5591F8008ECE60 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C623DD72D5591F8008ECE60 /* EssentialFeed.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C817CE92D51DA2F00A15E02 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C817CFF2D51DA3100A15E02 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C623DD62D5591F8008ECE60 /* EssentialFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,11 +86,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C623DD42D5591F8008ECE60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C817CE02D51DA2F00A15E02 = {
 			isa = PBXGroup;
 			children = (
 				6C817CEB2D51DA2F00A15E02 /* EssentialApp */,
 				6C817D022D51DA3100A15E02 /* EssentialAppTests */,
+				6C623DD42D5591F8008ECE60 /* Frameworks */,
 				6C817CEA2D51DA2F00A15E02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +123,7 @@
 				6C817CE52D51DA2F00A15E02 /* Sources */,
 				6C817CE62D51DA2F00A15E02 /* Frameworks */,
 				6C817CE72D51DA2F00A15E02 /* Resources */,
+				6C623DD82D5591F8008ECE60 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
