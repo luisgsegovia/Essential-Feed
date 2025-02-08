@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6C623DD62D5591F8008ECE60 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */; };
 		6C623DD72D5591F8008ECE60 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C623E1D2D57E59B008ECE60 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C623E1C2D57E59B008ECE60 /* EssentialFeediOS.framework */; };
+		6C623E1E2D57E59B008ECE60 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C623E1C2D57E59B008ECE60 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				6C623DD72D5591F8008ECE60 /* EssentialFeed.framework in Embed Frameworks */,
+				6C623E1E2D57E59B008ECE60 /* EssentialFeediOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +48,7 @@
 /* Begin PBXFileReference section */
 		6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C623DEB2D55B474008ECE60 /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C623E1C2D57E59B008ECE60 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C817CE92D51DA2F00A15E02 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C817CFF2D51DA3100A15E02 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C623DD62D5591F8008ECE60 /* EssentialFeed.framework in Frameworks */,
+				6C623E1D2D57E59B008ECE60 /* EssentialFeediOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +114,7 @@
 		6C623DD42D5591F8008ECE60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C623E1C2D57E59B008ECE60 /* EssentialFeediOS.framework */,
 				6C623DD52D5591F8008ECE60 /* EssentialFeed.framework */,
 			);
 			name = Frameworks;
